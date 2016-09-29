@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JACOBS-PC</Machine>
+    <WindowsUser>jacob</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c28bc861-bec6-402b-a2a1-a6b84ef83985</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\Plectio.Windows.exe">
+      <PackagePath>Plectio.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\Plectio.Windows.xr.xml">
+      <PackagePath>Plectio.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\ElevStartSide.xbf">
+      <PackagePath>ElevStartSide.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\Forside.xbf">
+      <PackagePath>Forside.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\LoginScreenElev.xbf">
+      <PackagePath>LoginScreenElev.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\LoginScreenLærer.xbf">
+      <PackagePath>LoginScreenLærer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\Skema.xbf">
+      <PackagePath>Skema.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jacob\documents\visual studio 2015\Projects\Plectio\Plectio\Plectio.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
